@@ -1,0 +1,24 @@
+event_date,event_label,source_short,currency,relevance,impact,direction
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,CHF,20,0,0
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,EUR,20,0,0
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,JPY,100,20,10
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,USD,80,20,-10
+2025-11-28,2025-11-28 | MOF Japan | MOF FX Intervention,MOF Japan,JPY,100,0,0
+2025-11-28,2025-11-28 | MOF Japan | MOF JGB Issuance,MOF Japan,JPY,100,0,0
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,CHF,20,0,0
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,EUR,20,0,0
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,JPY,100,0,0
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,SGD,20,0,0
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,USD,60,5,10
+2025-12-02,2025-12-02 | Japan Cabinet Office / ESRI | Consumer Confidence November,Japan Cabinet Office / ESRI,JPY,100,0,0
+2025-12-05,2025-12-05 | MOF Japan | MOF International Reserves,MOF Japan,JPY,100,0,0
+2025-12-05,2025-12-05 | MOF Japan | MOF International Reserves,MOF Japan,USD,100,0,0
+2025-12-05,2025-12-05 | MOF Japan | MOF International Reserves,MOF Japan,XAU,20,0,0
+2025-12-10,2025-12-10 | BOJ | Cgpi November,BOJ,JPY,100,0,0
+2025-12-10,2025-12-10 | Fed | Fed FOMC Statement,Fed,CHF,10,0,0
+2025-12-10,2025-12-10 | Fed | Fed FOMC Statement,Fed,EUR,10,0,0
+2025-12-10,2025-12-10 | Fed | Fed FOMC Statement,Fed,JPY,20,20,5
+2025-12-10,2025-12-10 | Fed | Fed FOMC Statement,Fed,SGD,10,0,0
+2025-12-10,2025-12-10 | Fed | Fed FOMC Statement,Fed,USD,100,80,-15
+2025-12-11,2025-12-11 | Japan Cabinet Office / ESRI | Business Outlook Q4,Japan Cabinet Office / ESRI,JPY,100,0,0
+2025-12-11,2025-12-11 | Japan Cabinet Office / ESRI | Business Outlook Q4,Japan Cabinet Office / ESRI,USD,20,0,0

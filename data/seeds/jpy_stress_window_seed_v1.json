@@ -1,0 +1,272 @@
+{
+  "version": "jpy_stress_window_seed_v1",
+  "generated_at": "2026-05-27T18:35:00+00:00",
+  "source_document": "docs/jpy_stress_window_case.md",
+  "frictiongraph_alignment_space": {
+    "stress_window": {
+      "start": "2025-11-28",
+      "end": "2025-12-01"
+    },
+    "event_search_window": {
+      "start": "2025-11-15",
+      "end": "2025-12-15"
+    },
+    "chain_currencies": [
+      "CAD",
+      "CHF",
+      "EUR",
+      "JPY",
+      "SGD",
+      "USD"
+    ],
+    "proxy_instruments": [
+      "CNH",
+      "XAU"
+    ],
+    "triangle_chain_count": 32,
+    "reference_files": [
+      "data/reference/frictiongraph_universe.json",
+      "data/reference/frictiongraph_chains.json",
+      "data/reference/frictiongraph_chains.csv"
+    ]
+  },
+  "events": [
+    {
+      "event_id": "boj_2025_11_27_noguchi_oita_speech",
+      "event_date": "2025-11-27",
+      "source_policy_id": "boj_official",
+      "source": "Bank of Japan",
+      "document_type": "central_bank_speech",
+      "title": "Economic Activity, Prices, and Monetary Policy in Japan",
+      "source_url": "https://www.boj.or.jp/en/about/press/koen_2025/ko251127a.htm",
+      "primary_categories": [
+        "monetary_policy",
+        "inflation",
+        "macro_growth"
+      ],
+      "country_focus": [
+        "JP"
+      ],
+      "currency_focus": [
+        "JPY",
+        "USD",
+        "EUR",
+        "CHF"
+      ],
+      "alignment_note": "Group A direct BOJ monetary-policy event one day before the 2025-11-28 JPY-heavy stress date."
+    },
+    {
+      "event_id": "mof_2025_11_28_fx_intervention_operations",
+      "event_date": "2025-11-28",
+      "source_policy_id": "japan_mof_official",
+      "source": "Japan Ministry of Finance",
+      "document_type": "foreign_exchange_intervention_disclosure",
+      "title": "Foreign Exchange Intervention Operations (October 30, 2025 through November 26, 2025)",
+      "source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/monthly/20251128e.html",
+      "primary_categories": [
+        "monetary_policy",
+        "macro_growth",
+        "geopolitics"
+      ],
+      "country_focus": [
+        "JP",
+        "US"
+      ],
+      "currency_focus": [
+        "JPY",
+        "USD",
+        "CHF",
+        "EUR"
+      ],
+      "alignment_note": "Group A direct official FX/intervention disclosure on the first FrictionGraph JPY stress date."
+    },
+    {
+      "event_id": "mof_2025_11_28_jgb_issuance_plan_revision",
+      "event_date": "2025-11-28",
+      "source_policy_id": "japan_mof_official",
+      "source": "Japan Ministry of Finance",
+      "document_type": "jgb_issuance_plan",
+      "title": "FY2025 JGB Issuance Plan, Revised in November Supplementary Budget",
+      "source_url": "https://www.mof.go.jp/english/policy/jgbs/debt_management/plan/index.htm",
+      "primary_categories": [
+        "fiscal_policy",
+        "monetary_policy",
+        "macro_growth"
+      ],
+      "country_focus": [
+        "JP"
+      ],
+      "currency_focus": [
+        "JPY",
+        "USD",
+        "CHF"
+      ],
+      "alignment_note": "Group A/B Japan rates and JGB supply event on the first stress date; relevant to yen rates and term-premium channels."
+    },
+    {
+      "event_id": "boj_2025_12_01_ueda_nagoya_speech",
+      "event_date": "2025-12-01",
+      "source_policy_id": "boj_official",
+      "source": "Bank of Japan",
+      "document_type": "central_bank_speech",
+      "title": "Japan's Economy and Monetary Policy",
+      "source_url": "https://www.boj.or.jp/en/about/press/koen_2025/ko251201a.htm",
+      "primary_categories": [
+        "monetary_policy",
+        "inflation",
+        "macro_growth"
+      ],
+      "country_focus": [
+        "JP"
+      ],
+      "currency_focus": [
+        "JPY",
+        "USD",
+        "EUR",
+        "SGD",
+        "CHF"
+      ],
+      "alignment_note": "Group A BOJ Governor speech on the second and larger JPY-heavy FrictionGraph stress date."
+    },
+    {
+      "event_id": "cao_2025_12_02_consumer_confidence_november",
+      "event_date": "2025-12-02",
+      "source_policy_id": "japan_cabinet_office_official",
+      "source": "Japan Cabinet Office / ESRI",
+      "document_type": "consumer_confidence_release",
+      "title": "Consumer Confidence Survey, November 2025",
+      "source_url": "https://www.esri.cao.go.jp/en/news/2025/index.html",
+      "primary_categories": [
+        "macro_growth",
+        "equities_risk"
+      ],
+      "country_focus": [
+        "JP"
+      ],
+      "currency_focus": [
+        "JPY",
+        "USD"
+      ],
+      "alignment_note": "Group C control-style Japan domestic sentiment event after the stress window; expected to be weaker than direct BOJ/MOF events."
+    },
+    {
+      "event_id": "mof_2025_12_05_international_reserves",
+      "event_date": "2025-12-05",
+      "source_policy_id": "japan_mof_official",
+      "source": "Japan Ministry of Finance",
+      "document_type": "international_reserves_release",
+      "title": "International Reserves / Foreign Currency Liquidity as of the End of November 2025",
+      "source_url": "https://www.mof.go.jp/english/policy/international_policy/reference/official_reserve_assets/e0711.html",
+      "primary_categories": [
+        "monetary_policy",
+        "macro_growth",
+        "commodities_metals"
+      ],
+      "country_focus": [
+        "JP",
+        "US"
+      ],
+      "currency_focus": [
+        "JPY",
+        "USD",
+        "XAU",
+        "CHF"
+      ],
+      "alignment_note": "Group A/B official reserve and foreign-currency liquidity disclosure shortly after the JPY stress window."
+    },
+    {
+      "event_id": "cao_2025_12_08_japan_gdp_q3_second_prelim",
+      "event_date": "2025-12-08",
+      "source_policy_id": "japan_cabinet_office_official",
+      "source": "Japan Cabinet Office / ESRI",
+      "document_type": "gdp_release",
+      "title": "Quarterly Estimates of GDP for Jul.-Sep. 2025, Second Preliminary",
+      "source_url": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2025/qe253_2/gdemenuea.html",
+      "primary_categories": [
+        "macro_growth",
+        "fiscal_policy",
+        "monetary_policy"
+      ],
+      "country_focus": [
+        "JP"
+      ],
+      "currency_focus": [
+        "JPY",
+        "USD",
+        "EUR"
+      ],
+      "alignment_note": "Group B Japan macro confirmation after the stress window; useful as a context event but less directly FX-specific."
+    },
+    {
+      "event_id": "boj_2025_12_10_cgpi_november",
+      "event_date": "2025-12-10",
+      "source_policy_id": "boj_official",
+      "source": "Bank of Japan",
+      "document_type": "corporate_goods_price_index_release",
+      "title": "Corporate Goods Price Index, November 2025",
+      "source_url": "https://www.boj.or.jp/en/statistics/pi/cgpi_release/",
+      "primary_categories": [
+        "inflation",
+        "monetary_policy",
+        "macro_growth"
+      ],
+      "country_focus": [
+        "JP"
+      ],
+      "currency_focus": [
+        "JPY",
+        "USD",
+        "EUR"
+      ],
+      "alignment_note": "Group A/B Japan inflation pipeline data relevant to BOJ expectations and yen rates channel."
+    },
+    {
+      "event_id": "fed_2025_12_10_fomc_statement",
+      "event_date": "2025-12-10",
+      "source_policy_id": "fed_board_public_domain",
+      "source": "Federal Reserve Board",
+      "document_type": "fomc_statement",
+      "title": "Federal Reserve Issues FOMC Statement",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm",
+      "primary_categories": [
+        "monetary_policy",
+        "inflation",
+        "macro_growth",
+        "equities_risk"
+      ],
+      "country_focus": [
+        "US"
+      ],
+      "currency_focus": [
+        "USD",
+        "JPY",
+        "CHF",
+        "EUR",
+        "SGD"
+      ],
+      "alignment_note": "Group B USD rates event that can affect USD/JPY and global risk channels, but is not Japan-specific."
+    },
+    {
+      "event_id": "cao_2025_12_11_business_outlook_q4",
+      "event_date": "2025-12-11",
+      "source_policy_id": "japan_cabinet_office_official",
+      "source": "Japan Cabinet Office / ESRI",
+      "document_type": "business_outlook_survey",
+      "title": "Business Outlook Survey, October-December 2025",
+      "source_url": "https://www.esri.cao.go.jp/en/news/2025/index.html",
+      "primary_categories": [
+        "macro_growth",
+        "equities_risk",
+        "supply_chain"
+      ],
+      "country_focus": [
+        "JP"
+      ],
+      "currency_focus": [
+        "JPY",
+        "USD"
+      ],
+      "alignment_note": "Group C domestic business sentiment control event after the stress window; expected to rank below direct BOJ/MOF events."
+    }
+  ]
+}

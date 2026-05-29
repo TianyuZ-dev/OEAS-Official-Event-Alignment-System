@@ -1,0 +1,36 @@
+event_date,event_label,source_short,category,relevance,impact,direction
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,macro_growth,80,20,10
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,monetary_policy,90,40,20
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,inflation,80,20,10
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,geopolitics,40,10,-10
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,trade_policy,60,20,-20
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,artificial_intelligence,40,20,20
+2025-11-27,2025-11-27 | BOJ | BOJ Noguchi Speech,BOJ,equities_risk,20,10,10
+2025-11-28,2025-11-28 | MOF Japan | MOF FX Intervention,MOF Japan,macro_growth,20,0,0
+2025-11-28,2025-11-28 | MOF Japan | MOF FX Intervention,MOF Japan,monetary_policy,100,0,0
+2025-11-28,2025-11-28 | MOF Japan | MOF FX Intervention,MOF Japan,geopolitics,20,0,0
+2025-11-28,2025-11-28 | MOF Japan | MOF JGB Issuance,MOF Japan,macro_growth,20,0,0
+2025-11-28,2025-11-28 | MOF Japan | MOF JGB Issuance,MOF Japan,monetary_policy,80,0,0
+2025-11-28,2025-11-28 | MOF Japan | MOF JGB Issuance,MOF Japan,fiscal_policy,100,0,0
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,macro_growth,80,10,20
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,monetary_policy,100,0,0
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,inflation,60,5,10
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,geopolitics,20,0,0
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,trade_policy,40,5,-10
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,semiconductors,20,5,10
+2025-12-01,2025-12-01 | BOJ | BOJ Ueda Speech,BOJ,artificial_intelligence,40,10,20
+2025-12-02,2025-12-02 | Japan Cabinet Office / ESRI | Consumer Confidence November,Japan Cabinet Office / ESRI,macro_growth,80,0,0
+2025-12-02,2025-12-02 | Japan Cabinet Office / ESRI | Consumer Confidence November,Japan Cabinet Office / ESRI,equities_risk,80,0,0
+2025-12-05,2025-12-05 | MOF Japan | MOF International Reserves,MOF Japan,macro_growth,20,0,0
+2025-12-05,2025-12-05 | MOF Japan | MOF International Reserves,MOF Japan,monetary_policy,100,10,10
+2025-12-05,2025-12-05 | MOF Japan | MOF International Reserves,MOF Japan,commodities_metals,20,0,0
+2025-12-10,2025-12-10 | BOJ | Cgpi November,BOJ,macro_growth,20,0,0
+2025-12-10,2025-12-10 | BOJ | Cgpi November,BOJ,monetary_policy,80,0,0
+2025-12-10,2025-12-10 | BOJ | Cgpi November,BOJ,inflation,100,0,0
+2025-12-10,2025-12-10 | Fed | Fed FOMC Statement,Fed,macro_growth,80,40,20
+2025-12-10,2025-12-10 | Fed | Fed FOMC Statement,Fed,monetary_policy,100,80,-25
+2025-12-10,2025-12-10 | Fed | Fed FOMC Statement,Fed,inflation,90,60,-20
+2025-12-10,2025-12-10 | Fed | Fed FOMC Statement,Fed,equities_risk,60,40,30
+2025-12-11,2025-12-11 | Japan Cabinet Office / ESRI | Business Outlook Q4,Japan Cabinet Office / ESRI,macro_growth,100,0,0
+2025-12-11,2025-12-11 | Japan Cabinet Office / ESRI | Business Outlook Q4,Japan Cabinet Office / ESRI,supply_chain,60,0,0
+2025-12-11,2025-12-11 | Japan Cabinet Office / ESRI | Business Outlook Q4,Japan Cabinet Office / ESRI,equities_risk,80,0,0

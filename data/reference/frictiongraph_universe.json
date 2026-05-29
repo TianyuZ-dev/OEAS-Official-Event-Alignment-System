@@ -1,0 +1,166 @@
+{
+  "version": "frictiongraph_new_processed_exports_v1",
+  "generated_at": "2026-05-27T16:37:29.993637+00:00",
+  "source_project": "FrictionGraph processed exports",
+  "source_files": {
+    "chains_json": "data/reference/frictiongraph_chains.json",
+    "chain_day_features": "data/frictiongraph/chain_day_features_all.csv",
+    "daily_width_features": "data/frictiongraph/daily_width_features_all.csv",
+    "instrument_config": "FrictionGraph config/parquet_jobs.txt"
+  },
+  "date_range": {
+    "start": "2024-01-02",
+    "end": "2026-01-01"
+  },
+  "years": [
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "counts": {
+    "triangle_chains": 32,
+    "chain_currencies": 6,
+    "configured_instruments": 16,
+    "configured_instrument_currencies": 8,
+    "daily_rows": 524
+  },
+  "important_note": "FrictionGraph currently has 32 triangle chains, not 32 currencies. The processed chain universe uses 6 currencies; configured instruments include CNH and XAU as additional non-chain/proxy instruments.",
+  "chain_currencies": [
+    "CAD",
+    "CHF",
+    "EUR",
+    "JPY",
+    "SGD",
+    "USD"
+  ],
+  "csv_chain_currencies": [
+    "CAD",
+    "CHF",
+    "EUR",
+    "JPY",
+    "SGD",
+    "USD"
+  ],
+  "configured_instruments": [
+    "CAD/CHF",
+    "CAD/JPY",
+    "CHF/JPY",
+    "CHF/SGD",
+    "EUR/CAD",
+    "EUR/CHF",
+    "EUR/JPY",
+    "EUR/SGD",
+    "EUR/USD",
+    "SGD/JPY",
+    "USD/CAD",
+    "USD/CHF",
+    "USD/CNH",
+    "USD/JPY",
+    "USD/SGD",
+    "XAU/USD"
+  ],
+  "configured_instrument_currencies": [
+    "CAD",
+    "CHF",
+    "CNH",
+    "EUR",
+    "JPY",
+    "SGD",
+    "USD",
+    "XAU"
+  ],
+  "currency_reference": {
+    "CAD": {
+      "region_label": "Canada",
+      "country_codes": [
+        "CA"
+      ],
+      "roles": [
+        "commodity_currency",
+        "oil_sensitive",
+        "north_america"
+      ]
+    },
+    "CHF": {
+      "region_label": "Switzerland",
+      "country_codes": [
+        "CH"
+      ],
+      "roles": [
+        "safe_haven",
+        "europe"
+      ]
+    },
+    "CNH": {
+      "region_label": "China offshore yuan",
+      "country_codes": [
+        "CN",
+        "HK"
+      ],
+      "roles": [
+        "china_proxy",
+        "trade_policy_sensitive",
+        "offshore_yuan"
+      ]
+    },
+    "EUR": {
+      "region_label": "Euro Area",
+      "country_codes": [
+        "EU",
+        "DE",
+        "FR",
+        "IT",
+        "ES",
+        "NL"
+      ],
+      "roles": [
+        "regional_currency",
+        "europe_growth",
+        "risk_currency"
+      ]
+    },
+    "JPY": {
+      "region_label": "Japan",
+      "country_codes": [
+        "JP"
+      ],
+      "roles": [
+        "safe_haven",
+        "asia",
+        "monetary_policy_sensitive"
+      ]
+    },
+    "SGD": {
+      "region_label": "Singapore",
+      "country_codes": [
+        "SG"
+      ],
+      "roles": [
+        "asia_trade_hub",
+        "china_proxy_partial",
+        "regional_risk"
+      ]
+    },
+    "USD": {
+      "region_label": "United States",
+      "country_codes": [
+        "US"
+      ],
+      "roles": [
+        "reserve_currency",
+        "safe_haven",
+        "trade_invoice",
+        "policy_anchor"
+      ]
+    },
+    "XAU": {
+      "region_label": "Gold",
+      "country_codes": [],
+      "roles": [
+        "metal",
+        "safe_haven_proxy",
+        "non_fiat"
+      ]
+    }
+  }
+}

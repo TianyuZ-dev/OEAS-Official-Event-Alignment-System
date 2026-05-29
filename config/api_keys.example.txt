@@ -1,0 +1,7 @@
+# Copy to config/api_keys.txt for local runs.
+# Do not commit real API keys.
+
+TOGETHER_API_KEY=
+FIREWORKS_API_KEY=
+GEMINI_API_KEY=
+CEREBRAS_API_KEY=

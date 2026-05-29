@@ -1,0 +1,398 @@
+[
+  {
+    "case_id": "ustr_2024_09_13_china_section_301_tariffs__7_day",
+    "event_id": "ustr_2024_09_13_china_section_301_tariffs",
+    "event_date": "2024-09-13",
+    "title": "USTR Finalizes Action on China Tariffs Following Statutory Four-Year Review",
+    "source": "Office of the U.S. Trade Representative",
+    "official_url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/2024/september/ustr-finalizes-action-china-tariffs-following-statutory-four-year-review",
+    "window": "7_day",
+    "friction_date": "2024-09-18",
+    "dominant_categories": [
+      {
+        "name": "trade_policy",
+        "score": 100.0,
+        "direction": -100.0,
+        "impact": 100.0
+      },
+      {
+        "name": "geopolitics",
+        "score": 80.0,
+        "direction": -80.0,
+        "impact": 80.0
+      },
+      {
+        "name": "supply_chain",
+        "score": 80.0,
+        "direction": -80.0,
+        "impact": 80.0
+      },
+      {
+        "name": "semiconductors",
+        "score": 60.0,
+        "direction": -60.0,
+        "impact": 60.0
+      },
+      {
+        "name": "commodities_metals",
+        "score": 40.0,
+        "direction": -40.0,
+        "impact": 20.0
+      }
+    ],
+    "dominant_currencies": [
+      {
+        "name": "USD",
+        "score": 100.0,
+        "direction": 100.0,
+        "impact": 100.0
+      },
+      {
+        "name": "CNH",
+        "score": 100.0,
+        "direction": -100.0,
+        "impact": 100.0
+      },
+      {
+        "name": "JPY",
+        "score": 40.0,
+        "direction": -40.0,
+        "impact": 40.0
+      },
+      {
+        "name": "SGD",
+        "score": 40.0,
+        "direction": -40.0,
+        "impact": 40.0
+      },
+      {
+        "name": "CHF",
+        "score": 20.0,
+        "direction": 20.0,
+        "impact": 20.0
+      }
+    ],
+    "alignment": {
+      "daily_sum_rmsd": 0.002466967755,
+      "gap": 0.000265149109,
+      "top_rmsd_chain": "EUR -> JPY -> SGD -> EUR",
+      "top_rmsd_chain_rmsd": 0.000142856336,
+      "top_alignment_chain": "USD -> JPY -> SGD -> USD",
+      "top_alignment_score": 1.3717845636,
+      "top_alignment_chain_rmsd": 0.000103923073,
+      "top_alignment_chain_rmsd_rank": 8,
+      "top_alignment_currency_overlap": 180.0,
+      "top_alignment_weighted_currency_overlap": 13200.0
+    },
+    "top_alignment_chains": [
+      {
+        "chain": "USD -> JPY -> SGD -> USD",
+        "chain_currencies": "USD|JPY|SGD",
+        "chain_rmsd": 0.000103923073,
+        "chain_rank_by_rmsd": 8,
+        "alignment_score": 1.3717845636,
+        "chain_rank_by_alignment": 1,
+        "currency_overlap": 180.0,
+        "weighted_currency_overlap": 13200.0
+      },
+      {
+        "chain": "USD -> SGD -> JPY -> USD",
+        "chain_currencies": "USD|SGD|JPY",
+        "chain_rmsd": 9.9764727e-05,
+        "chain_rank_by_rmsd": 10,
+        "alignment_score": 1.3168943964,
+        "chain_rank_by_alignment": 2,
+        "currency_overlap": 180.0,
+        "weighted_currency_overlap": 13200.0
+      },
+      {
+        "chain": "EUR -> USD -> SGD -> EUR",
+        "chain_currencies": "EUR|USD|SGD",
+        "chain_rmsd": 0.000111101032,
+        "chain_rank_by_rmsd": 7,
+        "alignment_score": 1.2887719712,
+        "chain_rank_by_alignment": 3,
+        "currency_overlap": 140.0,
+        "weighted_currency_overlap": 11600.0
+      },
+      {
+        "chain": "USD -> SGD -> CHF -> USD",
+        "chain_currencies": "USD|SGD|CHF",
+        "chain_rmsd": 0.000101108101,
+        "chain_rank_by_rmsd": 9,
+        "alignment_score": 1.213297212,
+        "chain_rank_by_alignment": 4,
+        "currency_overlap": 160.0,
+        "weighted_currency_overlap": 12000.0
+      },
+      {
+        "chain": "USD -> CHF -> SGD -> USD",
+        "chain_currencies": "USD|CHF|SGD",
+        "chain_rmsd": 9.3761262e-05,
+        "chain_rank_by_rmsd": 12,
+        "alignment_score": 1.125135144,
+        "chain_rank_by_alignment": 5,
+        "currency_overlap": 160.0,
+        "weighted_currency_overlap": 12000.0
+      }
+    ],
+    "top_rmsd_chains": [
+      {
+        "chain": "EUR -> JPY -> SGD -> EUR",
+        "chain_currencies": "EUR|JPY|SGD",
+        "chain_rmsd": 0.000142856336,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.4571402752,
+        "chain_rank_by_alignment": 15,
+        "currency_overlap": 80.0,
+        "weighted_currency_overlap": 3200.0
+      },
+      {
+        "chain": "EUR -> CHF -> SGD -> EUR",
+        "chain_currencies": "EUR|CHF|SGD",
+        "chain_rmsd": 0.000131691506,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.263383012,
+        "chain_rank_by_alignment": 23,
+        "currency_overlap": 60.0,
+        "weighted_currency_overlap": 2000.0
+      },
+      {
+        "chain": "JPY -> SGD -> CHF -> JPY",
+        "chain_currencies": "JPY|SGD|CHF",
+        "chain_rmsd": 0.000125684229,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.4524632244,
+        "chain_rank_by_alignment": 16,
+        "currency_overlap": 100.0,
+        "weighted_currency_overlap": 3600.0
+      },
+      {
+        "chain": "EUR -> SGD -> JPY -> EUR",
+        "chain_currencies": "EUR|SGD|JPY",
+        "chain_rmsd": 0.00011926629,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.381652128,
+        "chain_rank_by_alignment": 19,
+        "currency_overlap": 80.0,
+        "weighted_currency_overlap": 3200.0
+      },
+      {
+        "chain": "EUR -> SGD -> CHF -> EUR",
+        "chain_currencies": "EUR|SGD|CHF",
+        "chain_rmsd": 0.000118252028,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.23650405600000002,
+        "chain_rank_by_alignment": 24,
+        "currency_overlap": 60.0,
+        "weighted_currency_overlap": 2000.0
+      }
+    ],
+    "interpretation": "The official event is represented by ANAS as a trade_policy, geopolitics, supply_chain, semiconductors exposure with currency pressure around USD, CNH, JPY, SGD. In the 7_day window, FrictionGraph's largest standalone RMSD chain is EUR -> JPY -> SGD -> EUR, while the strongest event-overlap chain is USD -> JPY -> SGD -> USD. These are different chains, which helps separate broad market stress from event-specific currency-chain alignment.",
+    "caution": "This case links official-event exposure to nearby FrictionGraph chain behavior. It is an explanatory alignment record, not a causal claim or trading signal.",
+    "tableau_ready_files": [
+      "output/alignment/event_alignment_summary.csv",
+      "output/alignment/event_chain_alignment.csv",
+      "output/alignment/waterfall_category_daily.csv",
+      "output/alignment/waterfall_currency_daily.csv"
+    ]
+  },
+  {
+    "case_id": "whitehouse_2025_04_02_reciprocal_tariffs__3_day",
+    "event_id": "whitehouse_2025_04_02_reciprocal_tariffs",
+    "event_date": "2025-04-02",
+    "title": "President Donald J. Trump Declares National Emergency to Increase our Competitive Edge, Protect our Sovereignty, and Strengthen our National and Economic Security",
+    "source": "White House",
+    "official_url": "https://www.whitehouse.gov/fact-sheets/2025/04/fact-sheet-president-donald-j-trump-declares-national-emergency-to-increase-our-competitive-edge-protect-our-sovereignty-and-strengthen-our-national-and-economic-security/",
+    "window": "3_day",
+    "friction_date": "2025-04-04",
+    "dominant_categories": [
+      {
+        "name": "trade_policy",
+        "score": 100.0,
+        "direction": 50.0,
+        "impact": 80.0
+      },
+      {
+        "name": "geopolitics",
+        "score": 90.0,
+        "direction": 30.0,
+        "impact": 60.0
+      },
+      {
+        "name": "supply_chain",
+        "score": 80.0,
+        "direction": 20.0,
+        "impact": 50.0
+      },
+      {
+        "name": "defense_security",
+        "score": 80.0,
+        "direction": 30.0,
+        "impact": 50.0
+      },
+      {
+        "name": "macro_growth",
+        "score": 80.0,
+        "direction": 20.0,
+        "impact": 40.0
+      }
+    ],
+    "dominant_currencies": [
+      {
+        "name": "USD",
+        "score": 100.0,
+        "direction": 50.0,
+        "impact": 80.0
+      },
+      {
+        "name": "EUR",
+        "score": 80.0,
+        "direction": -20.0,
+        "impact": 50.0
+      },
+      {
+        "name": "CNH",
+        "score": 80.0,
+        "direction": -20.0,
+        "impact": 50.0
+      },
+      {
+        "name": "CAD",
+        "score": 60.0,
+        "direction": 0.0,
+        "impact": 30.0
+      },
+      {
+        "name": "JPY",
+        "score": 40.0,
+        "direction": 0.0,
+        "impact": 20.0
+      }
+    ],
+    "alignment": {
+      "daily_sum_rmsd": 0.002575099961,
+      "gap": 0.000309297702,
+      "top_rmsd_chain": "JPY -> SGD -> CHF -> JPY",
+      "top_rmsd_chain_rmsd": 0.000175069668,
+      "top_alignment_chain": "EUR -> USD -> SGD -> EUR",
+      "top_alignment_score": 1.2506214143999999,
+      "top_alignment_chain_rmsd": 0.000102509952,
+      "top_alignment_chain_rmsd_rank": 10,
+      "top_alignment_currency_overlap": 200.0,
+      "top_alignment_weighted_currency_overlap": 12200.0
+    },
+    "top_alignment_chains": [
+      {
+        "chain": "EUR -> USD -> SGD -> EUR",
+        "chain_currencies": "EUR|USD|SGD",
+        "chain_rmsd": 0.000102509952,
+        "chain_rank_by_rmsd": 10,
+        "alignment_score": 1.2506214143999999,
+        "chain_rank_by_alignment": 1,
+        "currency_overlap": 200.0,
+        "weighted_currency_overlap": 12200.0
+      },
+      {
+        "chain": "EUR -> SGD -> USD -> EUR",
+        "chain_currencies": "EUR|SGD|USD",
+        "chain_rmsd": 9.4684631e-05,
+        "chain_rank_by_rmsd": 11,
+        "alignment_score": 1.1551524982,
+        "chain_rank_by_alignment": 2,
+        "currency_overlap": 200.0,
+        "weighted_currency_overlap": 12200.0
+      },
+      {
+        "chain": "USD -> JPY -> SGD -> USD",
+        "chain_currencies": "USD|JPY|SGD",
+        "chain_rmsd": 0.000109824409,
+        "chain_rank_by_rmsd": 8,
+        "alignment_score": 0.988419681,
+        "chain_rank_by_alignment": 3,
+        "currency_overlap": 160.0,
+        "weighted_currency_overlap": 9000.0
+      },
+      {
+        "chain": "USD -> SGD -> CHF -> USD",
+        "chain_currencies": "USD|SGD|CHF",
+        "chain_rmsd": 0.000111988922,
+        "chain_rank_by_rmsd": 7,
+        "alignment_score": 0.9407069448000001,
+        "chain_rank_by_alignment": 4,
+        "currency_overlap": 140.0,
+        "weighted_currency_overlap": 8400.0
+      },
+      {
+        "chain": "EUR -> JPY -> SGD -> EUR",
+        "chain_currencies": "EUR|JPY|SGD",
+        "chain_rmsd": 0.000163332819,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.816664095,
+        "chain_rank_by_alignment": 5,
+        "currency_overlap": 140.0,
+        "weighted_currency_overlap": 5000.0
+      }
+    ],
+    "top_rmsd_chains": [
+      {
+        "chain": "JPY -> SGD -> CHF -> JPY",
+        "chain_currencies": "JPY|SGD|CHF",
+        "chain_rmsd": 0.000175069668,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.21008360159999998,
+        "chain_rank_by_alignment": 31,
+        "currency_overlap": 80.0,
+        "weighted_currency_overlap": 1200.0
+      },
+      {
+        "chain": "EUR -> JPY -> SGD -> EUR",
+        "chain_currencies": "EUR|JPY|SGD",
+        "chain_rmsd": 0.000163332819,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.816664095,
+        "chain_rank_by_alignment": 5,
+        "currency_overlap": 140.0,
+        "weighted_currency_overlap": 5000.0
+      },
+      {
+        "chain": "EUR -> SGD -> CHF -> EUR",
+        "chain_currencies": "EUR|SGD|CHF",
+        "chain_rmsd": 0.000155815422,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.6855878568,
+        "chain_rank_by_alignment": 8,
+        "currency_overlap": 120.0,
+        "weighted_currency_overlap": 4400.0
+      },
+      {
+        "chain": "EUR -> CHF -> SGD -> EUR",
+        "chain_currencies": "EUR|CHF|SGD",
+        "chain_rmsd": 0.000149545983,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.6580023252,
+        "chain_rank_by_alignment": 11,
+        "currency_overlap": 120.0,
+        "weighted_currency_overlap": 4400.0
+      },
+      {
+        "chain": "EUR -> SGD -> JPY -> EUR",
+        "chain_currencies": "EUR|SGD|JPY",
+        "chain_rmsd": 0.000118663529,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.593317645,
+        "chain_rank_by_alignment": 13,
+        "currency_overlap": 140.0,
+        "weighted_currency_overlap": 5000.0
+      }
+    ],
+    "interpretation": "The official event is represented by ANAS as a trade_policy, geopolitics, macro_growth, supply_chain exposure with currency pressure around USD, EUR, CNH, CAD. In the 3_day window, FrictionGraph's largest standalone RMSD chain is JPY -> SGD -> CHF -> JPY, while the strongest event-overlap chain is EUR -> USD -> SGD -> EUR. These are different chains, which helps separate broad market stress from event-specific currency-chain alignment.",
+    "caution": "This case links official-event exposure to nearby FrictionGraph chain behavior. It is an explanatory alignment record, not a causal claim or trading signal.",
+    "tableau_ready_files": [
+      "output/alignment/event_alignment_summary.csv",
+      "output/alignment/event_chain_alignment.csv",
+      "output/alignment/waterfall_category_daily.csv",
+      "output/alignment/waterfall_currency_daily.csv"
+    ]
+  }
+]

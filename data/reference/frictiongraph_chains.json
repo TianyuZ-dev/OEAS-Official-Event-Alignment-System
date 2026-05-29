@@ -1,0 +1,327 @@
+{
+  "version": "frictiongraph_new_processed_exports_v1",
+  "generated_at": "2026-05-27T16:37:29.993637+00:00",
+  "source_file": "FrictionGraph processed chain export",
+  "chains": [
+    {
+      "chain_id": "fg_chain_000",
+      "label": "EUR -> CAD -> CHF -> EUR",
+      "currencies": [
+        "EUR",
+        "CAD",
+        "CHF"
+      ],
+      "canonical_key": "EUR-CAD-CHF"
+    },
+    {
+      "chain_id": "fg_chain_001",
+      "label": "EUR -> CAD -> JPY -> EUR",
+      "currencies": [
+        "EUR",
+        "CAD",
+        "JPY"
+      ],
+      "canonical_key": "EUR-CAD-JPY"
+    },
+    {
+      "chain_id": "fg_chain_002",
+      "label": "EUR -> CAD -> USD -> EUR",
+      "currencies": [
+        "EUR",
+        "CAD",
+        "USD"
+      ],
+      "canonical_key": "EUR-CAD-USD"
+    },
+    {
+      "chain_id": "fg_chain_003",
+      "label": "EUR -> CHF -> CAD -> EUR",
+      "currencies": [
+        "EUR",
+        "CHF",
+        "CAD"
+      ],
+      "canonical_key": "EUR-CHF-CAD"
+    },
+    {
+      "chain_id": "fg_chain_004",
+      "label": "EUR -> CHF -> JPY -> EUR",
+      "currencies": [
+        "EUR",
+        "CHF",
+        "JPY"
+      ],
+      "canonical_key": "EUR-CHF-JPY"
+    },
+    {
+      "chain_id": "fg_chain_005",
+      "label": "EUR -> CHF -> SGD -> EUR",
+      "currencies": [
+        "EUR",
+        "CHF",
+        "SGD"
+      ],
+      "canonical_key": "EUR-CHF-SGD"
+    },
+    {
+      "chain_id": "fg_chain_006",
+      "label": "EUR -> CHF -> USD -> EUR",
+      "currencies": [
+        "EUR",
+        "CHF",
+        "USD"
+      ],
+      "canonical_key": "EUR-CHF-USD"
+    },
+    {
+      "chain_id": "fg_chain_007",
+      "label": "EUR -> JPY -> CAD -> EUR",
+      "currencies": [
+        "EUR",
+        "JPY",
+        "CAD"
+      ],
+      "canonical_key": "EUR-JPY-CAD"
+    },
+    {
+      "chain_id": "fg_chain_008",
+      "label": "EUR -> JPY -> CHF -> EUR",
+      "currencies": [
+        "EUR",
+        "JPY",
+        "CHF"
+      ],
+      "canonical_key": "EUR-JPY-CHF"
+    },
+    {
+      "chain_id": "fg_chain_009",
+      "label": "EUR -> JPY -> SGD -> EUR",
+      "currencies": [
+        "EUR",
+        "JPY",
+        "SGD"
+      ],
+      "canonical_key": "EUR-JPY-SGD"
+    },
+    {
+      "chain_id": "fg_chain_010",
+      "label": "EUR -> JPY -> USD -> EUR",
+      "currencies": [
+        "EUR",
+        "JPY",
+        "USD"
+      ],
+      "canonical_key": "EUR-JPY-USD"
+    },
+    {
+      "chain_id": "fg_chain_011",
+      "label": "EUR -> SGD -> CHF -> EUR",
+      "currencies": [
+        "EUR",
+        "SGD",
+        "CHF"
+      ],
+      "canonical_key": "EUR-SGD-CHF"
+    },
+    {
+      "chain_id": "fg_chain_012",
+      "label": "EUR -> SGD -> JPY -> EUR",
+      "currencies": [
+        "EUR",
+        "SGD",
+        "JPY"
+      ],
+      "canonical_key": "EUR-SGD-JPY"
+    },
+    {
+      "chain_id": "fg_chain_013",
+      "label": "EUR -> SGD -> USD -> EUR",
+      "currencies": [
+        "EUR",
+        "SGD",
+        "USD"
+      ],
+      "canonical_key": "EUR-SGD-USD"
+    },
+    {
+      "chain_id": "fg_chain_014",
+      "label": "EUR -> USD -> CAD -> EUR",
+      "currencies": [
+        "EUR",
+        "USD",
+        "CAD"
+      ],
+      "canonical_key": "EUR-USD-CAD"
+    },
+    {
+      "chain_id": "fg_chain_015",
+      "label": "EUR -> USD -> CHF -> EUR",
+      "currencies": [
+        "EUR",
+        "USD",
+        "CHF"
+      ],
+      "canonical_key": "EUR-USD-CHF"
+    },
+    {
+      "chain_id": "fg_chain_016",
+      "label": "EUR -> USD -> JPY -> EUR",
+      "currencies": [
+        "EUR",
+        "USD",
+        "JPY"
+      ],
+      "canonical_key": "EUR-USD-JPY"
+    },
+    {
+      "chain_id": "fg_chain_017",
+      "label": "EUR -> USD -> SGD -> EUR",
+      "currencies": [
+        "EUR",
+        "USD",
+        "SGD"
+      ],
+      "canonical_key": "EUR-USD-SGD"
+    },
+    {
+      "chain_id": "fg_chain_018",
+      "label": "JPY -> CAD -> CHF -> JPY",
+      "currencies": [
+        "JPY",
+        "CAD",
+        "CHF"
+      ],
+      "canonical_key": "JPY-CAD-CHF"
+    },
+    {
+      "chain_id": "fg_chain_019",
+      "label": "JPY -> CHF -> CAD -> JPY",
+      "currencies": [
+        "JPY",
+        "CHF",
+        "CAD"
+      ],
+      "canonical_key": "JPY-CHF-CAD"
+    },
+    {
+      "chain_id": "fg_chain_020",
+      "label": "JPY -> CHF -> SGD -> JPY",
+      "currencies": [
+        "JPY",
+        "CHF",
+        "SGD"
+      ],
+      "canonical_key": "JPY-CHF-SGD"
+    },
+    {
+      "chain_id": "fg_chain_021",
+      "label": "JPY -> SGD -> CHF -> JPY",
+      "currencies": [
+        "JPY",
+        "SGD",
+        "CHF"
+      ],
+      "canonical_key": "JPY-SGD-CHF"
+    },
+    {
+      "chain_id": "fg_chain_022",
+      "label": "USD -> CAD -> CHF -> USD",
+      "currencies": [
+        "USD",
+        "CAD",
+        "CHF"
+      ],
+      "canonical_key": "USD-CAD-CHF"
+    },
+    {
+      "chain_id": "fg_chain_023",
+      "label": "USD -> CAD -> JPY -> USD",
+      "currencies": [
+        "USD",
+        "CAD",
+        "JPY"
+      ],
+      "canonical_key": "USD-CAD-JPY"
+    },
+    {
+      "chain_id": "fg_chain_024",
+      "label": "USD -> CHF -> CAD -> USD",
+      "currencies": [
+        "USD",
+        "CHF",
+        "CAD"
+      ],
+      "canonical_key": "USD-CHF-CAD"
+    },
+    {
+      "chain_id": "fg_chain_025",
+      "label": "USD -> CHF -> JPY -> USD",
+      "currencies": [
+        "USD",
+        "CHF",
+        "JPY"
+      ],
+      "canonical_key": "USD-CHF-JPY"
+    },
+    {
+      "chain_id": "fg_chain_026",
+      "label": "USD -> CHF -> SGD -> USD",
+      "currencies": [
+        "USD",
+        "CHF",
+        "SGD"
+      ],
+      "canonical_key": "USD-CHF-SGD"
+    },
+    {
+      "chain_id": "fg_chain_027",
+      "label": "USD -> JPY -> CAD -> USD",
+      "currencies": [
+        "USD",
+        "JPY",
+        "CAD"
+      ],
+      "canonical_key": "USD-JPY-CAD"
+    },
+    {
+      "chain_id": "fg_chain_028",
+      "label": "USD -> JPY -> CHF -> USD",
+      "currencies": [
+        "USD",
+        "JPY",
+        "CHF"
+      ],
+      "canonical_key": "USD-JPY-CHF"
+    },
+    {
+      "chain_id": "fg_chain_029",
+      "label": "USD -> JPY -> SGD -> USD",
+      "currencies": [
+        "USD",
+        "JPY",
+        "SGD"
+      ],
+      "canonical_key": "USD-JPY-SGD"
+    },
+    {
+      "chain_id": "fg_chain_030",
+      "label": "USD -> SGD -> CHF -> USD",
+      "currencies": [
+        "USD",
+        "SGD",
+        "CHF"
+      ],
+      "canonical_key": "USD-SGD-CHF"
+    },
+    {
+      "chain_id": "fg_chain_031",
+      "label": "USD -> SGD -> JPY -> USD",
+      "currencies": [
+        "USD",
+        "SGD",
+        "JPY"
+      ],
+      "canonical_key": "USD-SGD-JPY"
+    }
+  ]
+}

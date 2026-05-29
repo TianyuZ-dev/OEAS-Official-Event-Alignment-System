@@ -1,0 +1,1418 @@
+[
+  {
+    "case_id": "boj_2025_11_27_noguchi_oita_speech__7_day",
+    "event_id": "boj_2025_11_27_noguchi_oita_speech",
+    "event_date": "2025-11-27",
+    "title": "Economic Activity, Prices, and Monetary Policy in Japan",
+    "source": "Bank of Japan",
+    "official_url": "https://www.boj.or.jp/en/about/press/koen_2025/ko251127a.htm",
+    "window": "7_day",
+    "friction_date": "2025-12-01",
+    "dominant_categories": [
+      {
+        "name": "monetary_policy",
+        "score": 90.0,
+        "direction": 20.0,
+        "impact": 40.0
+      },
+      {
+        "name": "macro_growth",
+        "score": 80.0,
+        "direction": 10.0,
+        "impact": 20.0
+      },
+      {
+        "name": "inflation",
+        "score": 80.0,
+        "direction": 10.0,
+        "impact": 20.0
+      },
+      {
+        "name": "trade_policy",
+        "score": 60.0,
+        "direction": -20.0,
+        "impact": 20.0
+      },
+      {
+        "name": "artificial_intelligence",
+        "score": 40.0,
+        "direction": 20.0,
+        "impact": 20.0
+      }
+    ],
+    "dominant_currencies": [
+      {
+        "name": "JPY",
+        "score": 100.0,
+        "direction": 10.0,
+        "impact": 20.0
+      },
+      {
+        "name": "USD",
+        "score": 80.0,
+        "direction": -10.0,
+        "impact": 20.0
+      },
+      {
+        "name": "CHF",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "EUR",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      }
+    ],
+    "alignment": {
+      "daily_sum_rmsd": 0.004020865281,
+      "gap": 0.000375373975,
+      "ranking_mode": "impact",
+      "top_rmsd_chain": "EUR -> SGD -> JPY -> EUR",
+      "top_rmsd_chain_rmsd": 0.00039058563,
+      "top_alignment_chain": "USD -> SGD -> JPY -> USD",
+      "top_alignment_score": 1.2224795004000002,
+      "top_alignment_relevance_score": 0.061123975020000006,
+      "top_alignment_impact_score": 1.2224795004000002,
+      "top_alignment_chain_rmsd": 0.000339577639,
+      "top_alignment_chain_rmsd_rank": 2,
+      "top_alignment_chain_relevance_rank": 2,
+      "top_alignment_chain_impact_rank": 1,
+      "top_alignment_currency_overlap": 180.0,
+      "top_alignment_currency_relevance_overlap": 180.0,
+      "top_alignment_weighted_currency_overlap": 3600.0
+    },
+    "top_alignment_chains": [
+      {
+        "chain": "USD -> SGD -> JPY -> USD",
+        "chain_currencies": "USD|SGD|JPY",
+        "chain_rmsd": 0.000339577639,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 1.2224795004000002,
+        "relevance_alignment_score": 0.061123975020000006,
+        "impact_alignment_score": 1.2224795004000002,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 180.0,
+        "currency_relevance_overlap": 180.0,
+        "weighted_currency_overlap": 3600.0
+      },
+      {
+        "chain": "USD -> CHF -> JPY -> USD",
+        "chain_currencies": "USD|CHF|JPY",
+        "chain_rmsd": 0.000306456289,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 1.1032426404,
+        "relevance_alignment_score": 0.061291257800000006,
+        "impact_alignment_score": 1.1032426404,
+        "chain_rank_by_alignment": 2,
+        "chain_rank_by_relevance_alignment": 1,
+        "chain_rank_by_impact_alignment": 2,
+        "currency_overlap": 200.0,
+        "currency_relevance_overlap": 200.0,
+        "weighted_currency_overlap": 3600.0
+      },
+      {
+        "chain": "USD -> JPY -> CHF -> USD",
+        "chain_currencies": "USD|JPY|CHF",
+        "chain_rmsd": 0.00024217045,
+        "chain_rank_by_rmsd": 6,
+        "alignment_score": 0.8718136200000001,
+        "relevance_alignment_score": 0.04843409,
+        "impact_alignment_score": 0.8718136200000001,
+        "chain_rank_by_alignment": 3,
+        "chain_rank_by_relevance_alignment": 3,
+        "chain_rank_by_impact_alignment": 3,
+        "currency_overlap": 200.0,
+        "currency_relevance_overlap": 200.0,
+        "weighted_currency_overlap": 3600.0
+      },
+      {
+        "chain": "USD -> JPY -> SGD -> USD",
+        "chain_currencies": "USD|JPY|SGD",
+        "chain_rmsd": 0.000229098225,
+        "chain_rank_by_rmsd": 8,
+        "alignment_score": 0.82475361,
+        "relevance_alignment_score": 0.0412376805,
+        "impact_alignment_score": 0.82475361,
+        "chain_rank_by_alignment": 4,
+        "chain_rank_by_relevance_alignment": 6,
+        "chain_rank_by_impact_alignment": 4,
+        "currency_overlap": 180.0,
+        "currency_relevance_overlap": 180.0,
+        "weighted_currency_overlap": 3600.0
+      },
+      {
+        "chain": "EUR -> SGD -> JPY -> EUR",
+        "chain_currencies": "EUR|SGD|JPY",
+        "chain_rmsd": 0.00039058563,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.78117126,
+        "relevance_alignment_score": 0.046870275600000004,
+        "impact_alignment_score": 0.78117126,
+        "chain_rank_by_alignment": 5,
+        "chain_rank_by_relevance_alignment": 4,
+        "chain_rank_by_impact_alignment": 5,
+        "currency_overlap": 120.0,
+        "currency_relevance_overlap": 120.0,
+        "weighted_currency_overlap": 2000.0
+      }
+    ],
+    "top_rmsd_chains": [
+      {
+        "chain": "EUR -> SGD -> JPY -> EUR",
+        "chain_currencies": "EUR|SGD|JPY",
+        "chain_rmsd": 0.00039058563,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.78117126,
+        "relevance_alignment_score": 0.046870275600000004,
+        "impact_alignment_score": 0.78117126,
+        "chain_rank_by_alignment": 5,
+        "chain_rank_by_relevance_alignment": 4,
+        "chain_rank_by_impact_alignment": 5,
+        "currency_overlap": 120.0,
+        "currency_relevance_overlap": 120.0,
+        "weighted_currency_overlap": 2000.0
+      },
+      {
+        "chain": "USD -> SGD -> JPY -> USD",
+        "chain_currencies": "USD|SGD|JPY",
+        "chain_rmsd": 0.000339577639,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 1.2224795004000002,
+        "relevance_alignment_score": 0.061123975020000006,
+        "impact_alignment_score": 1.2224795004000002,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 180.0,
+        "currency_relevance_overlap": 180.0,
+        "weighted_currency_overlap": 3600.0
+      },
+      {
+        "chain": "JPY -> CAD -> CHF -> JPY",
+        "chain_currencies": "JPY|CAD|CHF",
+        "chain_rmsd": 0.000321963024,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.643926048,
+        "relevance_alignment_score": 0.03863556288,
+        "impact_alignment_score": 0.643926048,
+        "chain_rank_by_alignment": 6,
+        "chain_rank_by_relevance_alignment": 7,
+        "chain_rank_by_impact_alignment": 6,
+        "currency_overlap": 120.0,
+        "currency_relevance_overlap": 120.0,
+        "weighted_currency_overlap": 2000.0
+      },
+      {
+        "chain": "EUR -> CHF -> JPY -> EUR",
+        "chain_currencies": "EUR|CHF|JPY",
+        "chain_rmsd": 0.000309161378,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.6183227560000001,
+        "relevance_alignment_score": 0.04328259292,
+        "impact_alignment_score": 0.6183227560000001,
+        "chain_rank_by_alignment": 7,
+        "chain_rank_by_relevance_alignment": 5,
+        "chain_rank_by_impact_alignment": 7,
+        "currency_overlap": 140.0,
+        "currency_relevance_overlap": 140.0,
+        "weighted_currency_overlap": 2000.0
+      },
+      {
+        "chain": "USD -> CHF -> JPY -> USD",
+        "chain_currencies": "USD|CHF|JPY",
+        "chain_rmsd": 0.000306456289,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 1.1032426404,
+        "relevance_alignment_score": 0.061291257800000006,
+        "impact_alignment_score": 1.1032426404,
+        "chain_rank_by_alignment": 2,
+        "chain_rank_by_relevance_alignment": 1,
+        "chain_rank_by_impact_alignment": 2,
+        "currency_overlap": 200.0,
+        "currency_relevance_overlap": 200.0,
+        "weighted_currency_overlap": 3600.0
+      }
+    ],
+    "interpretation": "The official event is represented by ANAS as a monetary_policy, macro_growth, inflation, trade_policy exposure with currency pressure around JPY, USD, CHF, EUR. In the 7_day window, FrictionGraph's largest standalone RMSD chain is EUR -> SGD -> JPY -> EUR, while the strongest event-overlap chain is USD -> SGD -> JPY -> USD. These are different chains, which helps separate broad market stress from event-specific currency-chain alignment.",
+    "caution": "This case links official-event exposure to nearby FrictionGraph chain behavior. It is an explanatory alignment record, not a causal claim or trading signal.",
+    "tableau_ready_files": [
+      "output/alignment_jpy_stress/event_alignment_summary.csv",
+      "output/alignment_jpy_stress/event_chain_alignment.csv",
+      "output/alignment_jpy_stress/waterfall_category_daily.csv",
+      "output/alignment_jpy_stress/waterfall_currency_daily.csv"
+    ]
+  },
+  {
+    "case_id": "fed_2025_12_10_fomc_statement__next_day",
+    "event_id": "fed_2025_12_10_fomc_statement",
+    "event_date": "2025-12-10",
+    "title": "Federal Reserve Issues FOMC Statement",
+    "source": "Federal Reserve Board",
+    "official_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm",
+    "window": "next_day",
+    "friction_date": "2025-12-11",
+    "dominant_categories": [
+      {
+        "name": "monetary_policy",
+        "score": 100.0,
+        "direction": -25.0,
+        "impact": 80.0
+      },
+      {
+        "name": "inflation",
+        "score": 90.0,
+        "direction": -20.0,
+        "impact": 60.0
+      },
+      {
+        "name": "macro_growth",
+        "score": 80.0,
+        "direction": 20.0,
+        "impact": 40.0
+      },
+      {
+        "name": "equities_risk",
+        "score": 60.0,
+        "direction": 30.0,
+        "impact": 40.0
+      }
+    ],
+    "dominant_currencies": [
+      {
+        "name": "USD",
+        "score": 100.0,
+        "direction": -15.0,
+        "impact": 80.0
+      },
+      {
+        "name": "JPY",
+        "score": 20.0,
+        "direction": 5.0,
+        "impact": 20.0
+      },
+      {
+        "name": "CHF",
+        "score": 10.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "EUR",
+        "score": 10.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "SGD",
+        "score": 10.0,
+        "direction": 0.0,
+        "impact": 0.0
+      }
+    ],
+    "alignment": {
+      "daily_sum_rmsd": 0.000995739334,
+      "gap": 0.000355065001,
+      "ranking_mode": "impact",
+      "top_rmsd_chain": "EUR -> SGD -> CHF -> EUR",
+      "top_rmsd_chain_rmsd": 6.4505699e-05,
+      "top_alignment_chain": "USD -> SGD -> CHF -> USD",
+      "top_alignment_score": 0.465037976,
+      "top_alignment_relevance_score": 0.00697556964,
+      "top_alignment_impact_score": 0.465037976,
+      "top_alignment_chain_rmsd": 5.8129747e-05,
+      "top_alignment_chain_rmsd_rank": 2,
+      "top_alignment_chain_relevance_rank": 1,
+      "top_alignment_chain_impact_rank": 1,
+      "top_alignment_currency_overlap": 120.0,
+      "top_alignment_currency_relevance_overlap": 120.0,
+      "top_alignment_weighted_currency_overlap": 8000.0
+    },
+    "top_alignment_chains": [
+      {
+        "chain": "USD -> SGD -> CHF -> USD",
+        "chain_currencies": "USD|SGD|CHF",
+        "chain_rmsd": 5.8129747e-05,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.465037976,
+        "relevance_alignment_score": 0.00697556964,
+        "impact_alignment_score": 0.465037976,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 1,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 120.0,
+        "currency_relevance_overlap": 120.0,
+        "weighted_currency_overlap": 8000.0
+      },
+      {
+        "chain": "USD -> CHF -> SGD -> USD",
+        "chain_currencies": "USD|CHF|SGD",
+        "chain_rmsd": 4.4979944e-05,
+        "chain_rank_by_rmsd": 8,
+        "alignment_score": 0.359839552,
+        "relevance_alignment_score": 0.00539759328,
+        "impact_alignment_score": 0.359839552,
+        "chain_rank_by_alignment": 2,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 2,
+        "currency_overlap": 120.0,
+        "currency_relevance_overlap": 120.0,
+        "weighted_currency_overlap": 8000.0
+      },
+      {
+        "chain": "USD -> CHF -> CAD -> USD",
+        "chain_currencies": "USD|CHF|CAD",
+        "chain_rmsd": 4.3565881e-05,
+        "chain_rank_by_rmsd": 9,
+        "alignment_score": 0.34852704799999995,
+        "relevance_alignment_score": 0.00479224691,
+        "impact_alignment_score": 0.34852704799999995,
+        "chain_rank_by_alignment": 3,
+        "chain_rank_by_relevance_alignment": 3,
+        "chain_rank_by_impact_alignment": 3,
+        "currency_overlap": 110.0,
+        "currency_relevance_overlap": 110.0,
+        "weighted_currency_overlap": 8000.0
+      },
+      {
+        "chain": "USD -> CAD -> CHF -> USD",
+        "chain_currencies": "USD|CAD|CHF",
+        "chain_rmsd": 3.6771558e-05,
+        "chain_rank_by_rmsd": 12,
+        "alignment_score": 0.29417246399999997,
+        "relevance_alignment_score": 0.00404487138,
+        "impact_alignment_score": 0.29417246399999997,
+        "chain_rank_by_alignment": 4,
+        "chain_rank_by_relevance_alignment": 4,
+        "chain_rank_by_impact_alignment": 4,
+        "currency_overlap": 110.0,
+        "currency_relevance_overlap": 110.0,
+        "weighted_currency_overlap": 8000.0
+      },
+      {
+        "chain": "USD -> JPY -> CHF -> USD",
+        "chain_currencies": "USD|JPY|CHF",
+        "chain_rmsd": 2.4327748e-05,
+        "chain_rank_by_rmsd": 16,
+        "alignment_score": 0.20435308319999998,
+        "relevance_alignment_score": 0.00316260724,
+        "impact_alignment_score": 0.20435308319999998,
+        "chain_rank_by_alignment": 5,
+        "chain_rank_by_relevance_alignment": 5,
+        "chain_rank_by_impact_alignment": 5,
+        "currency_overlap": 130.0,
+        "currency_relevance_overlap": 130.0,
+        "weighted_currency_overlap": 8400.0
+      }
+    ],
+    "top_rmsd_chains": [
+      {
+        "chain": "EUR -> SGD -> CHF -> EUR",
+        "chain_currencies": "EUR|SGD|CHF",
+        "chain_rmsd": 6.4505699e-05,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0019351709700000002,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 29,
+        "chain_rank_by_relevance_alignment": 20,
+        "chain_rank_by_impact_alignment": 29,
+        "currency_overlap": 30.0,
+        "currency_relevance_overlap": 30.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> SGD -> CHF -> USD",
+        "chain_currencies": "USD|SGD|CHF",
+        "chain_rmsd": 5.8129747e-05,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.465037976,
+        "relevance_alignment_score": 0.00697556964,
+        "impact_alignment_score": 0.465037976,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 1,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 120.0,
+        "currency_relevance_overlap": 120.0,
+        "weighted_currency_overlap": 8000.0
+      },
+      {
+        "chain": "JPY -> SGD -> CHF -> JPY",
+        "chain_currencies": "JPY|SGD|CHF",
+        "chain_rmsd": 5.703721e-05,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.022814884,
+        "relevance_alignment_score": 0.0022814884,
+        "impact_alignment_score": 0.022814884,
+        "chain_rank_by_alignment": 19,
+        "chain_rank_by_relevance_alignment": 14,
+        "chain_rank_by_impact_alignment": 19,
+        "currency_overlap": 40.0,
+        "currency_relevance_overlap": 40.0,
+        "weighted_currency_overlap": 400.0
+      },
+      {
+        "chain": "JPY -> CHF -> SGD -> JPY",
+        "chain_currencies": "JPY|CHF|SGD",
+        "chain_rmsd": 4.903704e-05,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.019614816,
+        "relevance_alignment_score": 0.0019614816,
+        "impact_alignment_score": 0.019614816,
+        "chain_rank_by_alignment": 20,
+        "chain_rank_by_relevance_alignment": 19,
+        "chain_rank_by_impact_alignment": 20,
+        "currency_overlap": 40.0,
+        "currency_relevance_overlap": 40.0,
+        "weighted_currency_overlap": 400.0
+      },
+      {
+        "chain": "JPY -> CHF -> CAD -> JPY",
+        "chain_currencies": "JPY|CHF|CAD",
+        "chain_rmsd": 4.8730978e-05,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.0194923912,
+        "relevance_alignment_score": 0.00146192934,
+        "impact_alignment_score": 0.0194923912,
+        "chain_rank_by_alignment": 21,
+        "chain_rank_by_relevance_alignment": 22,
+        "chain_rank_by_impact_alignment": 21,
+        "currency_overlap": 30.0,
+        "currency_relevance_overlap": 30.0,
+        "weighted_currency_overlap": 400.0
+      }
+    ],
+    "interpretation": "The official event is represented by ANAS as a monetary_policy, inflation, macro_growth, equities_risk exposure with currency pressure around USD, JPY, CHF, EUR. In the next_day window, FrictionGraph's largest standalone RMSD chain is EUR -> SGD -> CHF -> EUR, while the strongest event-overlap chain is USD -> SGD -> CHF -> USD. These are different chains, which helps separate broad market stress from event-specific currency-chain alignment.",
+    "caution": "This case links official-event exposure to nearby FrictionGraph chain behavior. It is an explanatory alignment record, not a causal claim or trading signal.",
+    "tableau_ready_files": [
+      "output/alignment_jpy_stress/event_alignment_summary.csv",
+      "output/alignment_jpy_stress/event_chain_alignment.csv",
+      "output/alignment_jpy_stress/waterfall_category_daily.csv",
+      "output/alignment_jpy_stress/waterfall_currency_daily.csv"
+    ]
+  },
+  {
+    "case_id": "boj_2025_12_01_ueda_nagoya_speech__same_day",
+    "event_id": "boj_2025_12_01_ueda_nagoya_speech",
+    "event_date": "2025-12-01",
+    "title": "Japan's Economy and Monetary Policy",
+    "source": "Bank of Japan",
+    "official_url": "https://www.boj.or.jp/en/about/press/koen_2025/ko251201a.htm",
+    "window": "same_day",
+    "friction_date": "2025-12-01",
+    "dominant_categories": [
+      {
+        "name": "monetary_policy",
+        "score": 100.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "macro_growth",
+        "score": 80.0,
+        "direction": 20.0,
+        "impact": 10.0
+      },
+      {
+        "name": "inflation",
+        "score": 60.0,
+        "direction": 10.0,
+        "impact": 5.0
+      },
+      {
+        "name": "artificial_intelligence",
+        "score": 40.0,
+        "direction": 20.0,
+        "impact": 10.0
+      },
+      {
+        "name": "trade_policy",
+        "score": 40.0,
+        "direction": -10.0,
+        "impact": 5.0
+      }
+    ],
+    "dominant_currencies": [
+      {
+        "name": "JPY",
+        "score": 100.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "USD",
+        "score": 60.0,
+        "direction": 10.0,
+        "impact": 5.0
+      },
+      {
+        "name": "CHF",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "EUR",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "SGD",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      }
+    ],
+    "alignment": {
+      "daily_sum_rmsd": 0.004020865281,
+      "gap": 0.000375373975,
+      "ranking_mode": "impact",
+      "top_rmsd_chain": "EUR -> SGD -> JPY -> EUR",
+      "top_rmsd_chain_rmsd": 0.00039058563,
+      "top_alignment_chain": "USD -> SGD -> JPY -> USD",
+      "top_alignment_score": 0.10187329170000001,
+      "top_alignment_relevance_score": 0.061123975020000006,
+      "top_alignment_impact_score": 0.10187329170000001,
+      "top_alignment_chain_rmsd": 0.000339577639,
+      "top_alignment_chain_rmsd_rank": 2,
+      "top_alignment_chain_relevance_rank": 1,
+      "top_alignment_chain_impact_rank": 1,
+      "top_alignment_currency_overlap": 180.0,
+      "top_alignment_currency_relevance_overlap": 180.0,
+      "top_alignment_weighted_currency_overlap": 300.0
+    },
+    "top_alignment_chains": [
+      {
+        "chain": "USD -> SGD -> JPY -> USD",
+        "chain_currencies": "USD|SGD|JPY",
+        "chain_rmsd": 0.000339577639,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.10187329170000001,
+        "relevance_alignment_score": 0.061123975020000006,
+        "impact_alignment_score": 0.10187329170000001,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 1,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 180.0,
+        "currency_relevance_overlap": 180.0,
+        "weighted_currency_overlap": 300.0
+      },
+      {
+        "chain": "USD -> CHF -> JPY -> USD",
+        "chain_currencies": "USD|CHF|JPY",
+        "chain_rmsd": 0.000306456289,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.09193688670000001,
+        "relevance_alignment_score": 0.055162132020000004,
+        "impact_alignment_score": 0.09193688670000001,
+        "chain_rank_by_alignment": 2,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 2,
+        "currency_overlap": 180.0,
+        "currency_relevance_overlap": 180.0,
+        "weighted_currency_overlap": 300.0
+      },
+      {
+        "chain": "USD -> JPY -> CHF -> USD",
+        "chain_currencies": "USD|JPY|CHF",
+        "chain_rmsd": 0.00024217045,
+        "chain_rank_by_rmsd": 6,
+        "alignment_score": 0.072651135,
+        "relevance_alignment_score": 0.043590681,
+        "impact_alignment_score": 0.072651135,
+        "chain_rank_by_alignment": 3,
+        "chain_rank_by_relevance_alignment": 4,
+        "chain_rank_by_impact_alignment": 3,
+        "currency_overlap": 180.0,
+        "currency_relevance_overlap": 180.0,
+        "weighted_currency_overlap": 300.0
+      },
+      {
+        "chain": "USD -> JPY -> SGD -> USD",
+        "chain_currencies": "USD|JPY|SGD",
+        "chain_rmsd": 0.000229098225,
+        "chain_rank_by_rmsd": 8,
+        "alignment_score": 0.0687294675,
+        "relevance_alignment_score": 0.0412376805,
+        "impact_alignment_score": 0.0687294675,
+        "chain_rank_by_alignment": 4,
+        "chain_rank_by_relevance_alignment": 6,
+        "chain_rank_by_impact_alignment": 4,
+        "currency_overlap": 180.0,
+        "currency_relevance_overlap": 180.0,
+        "weighted_currency_overlap": 300.0
+      },
+      {
+        "chain": "USD -> SGD -> CHF -> USD",
+        "chain_currencies": "USD|SGD|CHF",
+        "chain_rmsd": 0.000152350702,
+        "chain_rank_by_rmsd": 12,
+        "alignment_score": 0.045705210600000004,
+        "relevance_alignment_score": 0.0152350702,
+        "impact_alignment_score": 0.045705210600000004,
+        "chain_rank_by_alignment": 5,
+        "chain_rank_by_relevance_alignment": 11,
+        "chain_rank_by_impact_alignment": 5,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 300.0
+      }
+    ],
+    "top_rmsd_chains": [
+      {
+        "chain": "EUR -> SGD -> JPY -> EUR",
+        "chain_currencies": "EUR|SGD|JPY",
+        "chain_rmsd": 0.00039058563,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.054681988200000003,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 19,
+        "chain_rank_by_relevance_alignment": 3,
+        "chain_rank_by_impact_alignment": 19,
+        "currency_overlap": 140.0,
+        "currency_relevance_overlap": 140.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> SGD -> JPY -> USD",
+        "chain_currencies": "USD|SGD|JPY",
+        "chain_rmsd": 0.000339577639,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.10187329170000001,
+        "relevance_alignment_score": 0.061123975020000006,
+        "impact_alignment_score": 0.10187329170000001,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 1,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 180.0,
+        "currency_relevance_overlap": 180.0,
+        "weighted_currency_overlap": 300.0
+      },
+      {
+        "chain": "JPY -> CAD -> CHF -> JPY",
+        "chain_currencies": "JPY|CAD|CHF",
+        "chain_rmsd": 0.000321963024,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.03863556288,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 19,
+        "chain_rank_by_relevance_alignment": 7,
+        "chain_rank_by_impact_alignment": 19,
+        "currency_overlap": 120.0,
+        "currency_relevance_overlap": 120.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "EUR -> CHF -> JPY -> EUR",
+        "chain_currencies": "EUR|CHF|JPY",
+        "chain_rmsd": 0.000309161378,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.04328259292,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 19,
+        "chain_rank_by_relevance_alignment": 5,
+        "chain_rank_by_impact_alignment": 19,
+        "currency_overlap": 140.0,
+        "currency_relevance_overlap": 140.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> CHF -> JPY -> USD",
+        "chain_currencies": "USD|CHF|JPY",
+        "chain_rmsd": 0.000306456289,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.09193688670000001,
+        "relevance_alignment_score": 0.055162132020000004,
+        "impact_alignment_score": 0.09193688670000001,
+        "chain_rank_by_alignment": 2,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 2,
+        "currency_overlap": 180.0,
+        "currency_relevance_overlap": 180.0,
+        "weighted_currency_overlap": 300.0
+      }
+    ],
+    "interpretation": "The official event is represented by ANAS as a monetary_policy, macro_growth, inflation, trade_policy exposure with currency pressure around JPY, USD, CHF, EUR. In the same_day window, FrictionGraph's largest standalone RMSD chain is EUR -> SGD -> JPY -> EUR, while the strongest event-overlap chain is USD -> SGD -> JPY -> USD. These are different chains, which helps separate broad market stress from event-specific currency-chain alignment.",
+    "caution": "This case links official-event exposure to nearby FrictionGraph chain behavior. It is an explanatory alignment record, not a causal claim or trading signal.",
+    "tableau_ready_files": [
+      "output/alignment_jpy_stress/event_alignment_summary.csv",
+      "output/alignment_jpy_stress/event_chain_alignment.csv",
+      "output/alignment_jpy_stress/waterfall_category_daily.csv",
+      "output/alignment_jpy_stress/waterfall_currency_daily.csv"
+    ]
+  },
+  {
+    "case_id": "mof_2025_11_28_fx_intervention_operations__next_day",
+    "event_id": "mof_2025_11_28_fx_intervention_operations",
+    "event_date": "2025-11-28",
+    "title": "Foreign Exchange Intervention Operations (October 30, 2025 through November 26, 2025)",
+    "source": "Japan Ministry of Finance",
+    "official_url": "https://www.mof.go.jp/english/policy/international_policy/reference/feio/monthly/20251128e.html",
+    "window": "next_day",
+    "friction_date": "2025-12-01",
+    "dominant_categories": [
+      {
+        "name": "monetary_policy",
+        "score": 100.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "macro_growth",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "geopolitics",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      }
+    ],
+    "dominant_currencies": [
+      {
+        "name": "JPY",
+        "score": 100.0,
+        "direction": 0.0,
+        "impact": 0.0
+      }
+    ],
+    "alignment": {
+      "daily_sum_rmsd": 0.004020865281,
+      "gap": 0.000375373975,
+      "ranking_mode": "impact",
+      "top_rmsd_chain": "EUR -> SGD -> JPY -> EUR",
+      "top_rmsd_chain_rmsd": 0.00039058563,
+      "top_alignment_chain": "EUR -> SGD -> JPY -> EUR",
+      "top_alignment_score": 0.0,
+      "top_alignment_relevance_score": 0.039058563000000004,
+      "top_alignment_impact_score": 0.0,
+      "top_alignment_chain_rmsd": 0.00039058563,
+      "top_alignment_chain_rmsd_rank": 1,
+      "top_alignment_chain_relevance_rank": 1,
+      "top_alignment_chain_impact_rank": 1,
+      "top_alignment_currency_overlap": 100.0,
+      "top_alignment_currency_relevance_overlap": 100.0,
+      "top_alignment_weighted_currency_overlap": 0.0
+    },
+    "top_alignment_chains": [
+      {
+        "chain": "EUR -> SGD -> JPY -> EUR",
+        "chain_currencies": "EUR|SGD|JPY",
+        "chain_rmsd": 0.00039058563,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.039058563000000004,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 1,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> SGD -> JPY -> USD",
+        "chain_currencies": "USD|SGD|JPY",
+        "chain_rmsd": 0.000339577639,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0339577639,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "JPY -> CAD -> CHF -> JPY",
+        "chain_currencies": "JPY|CAD|CHF",
+        "chain_rmsd": 0.000321963024,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0321963024,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 3,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "EUR -> CHF -> JPY -> EUR",
+        "chain_currencies": "EUR|CHF|JPY",
+        "chain_rmsd": 0.000309161378,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.030916137800000004,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 4,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> CHF -> JPY -> USD",
+        "chain_currencies": "USD|CHF|JPY",
+        "chain_rmsd": 0.000306456289,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.030645628900000003,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 5,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      }
+    ],
+    "top_rmsd_chains": [
+      {
+        "chain": "EUR -> SGD -> JPY -> EUR",
+        "chain_currencies": "EUR|SGD|JPY",
+        "chain_rmsd": 0.00039058563,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.039058563000000004,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 1,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> SGD -> JPY -> USD",
+        "chain_currencies": "USD|SGD|JPY",
+        "chain_rmsd": 0.000339577639,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0339577639,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "JPY -> CAD -> CHF -> JPY",
+        "chain_currencies": "JPY|CAD|CHF",
+        "chain_rmsd": 0.000321963024,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0321963024,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 3,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "EUR -> CHF -> JPY -> EUR",
+        "chain_currencies": "EUR|CHF|JPY",
+        "chain_rmsd": 0.000309161378,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.030916137800000004,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 4,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> CHF -> JPY -> USD",
+        "chain_currencies": "USD|CHF|JPY",
+        "chain_rmsd": 0.000306456289,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.030645628900000003,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 5,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      }
+    ],
+    "interpretation": "The official event is represented by ANAS as a monetary_policy, macro_growth, geopolitics exposure with currency pressure around JPY. In the next_day window, FrictionGraph's largest standalone RMSD chain is EUR -> SGD -> JPY -> EUR, while the strongest event-overlap chain is EUR -> SGD -> JPY -> EUR. These are same chain, which helps separate broad market stress from event-specific currency-chain alignment.",
+    "caution": "This case links official-event exposure to nearby FrictionGraph chain behavior. It is an explanatory alignment record, not a causal claim or trading signal.",
+    "tableau_ready_files": [
+      "output/alignment_jpy_stress/event_alignment_summary.csv",
+      "output/alignment_jpy_stress/event_chain_alignment.csv",
+      "output/alignment_jpy_stress/waterfall_category_daily.csv",
+      "output/alignment_jpy_stress/waterfall_currency_daily.csv"
+    ]
+  },
+  {
+    "case_id": "mof_2025_11_28_jgb_issuance_plan_revision__next_day",
+    "event_id": "mof_2025_11_28_jgb_issuance_plan_revision",
+    "event_date": "2025-11-28",
+    "title": "FY2025 JGB Issuance Plan, Revised in November Supplementary Budget",
+    "source": "Japan Ministry of Finance",
+    "official_url": "https://www.mof.go.jp/english/policy/jgbs/debt_management/plan/index.htm",
+    "window": "next_day",
+    "friction_date": "2025-12-01",
+    "dominant_categories": [
+      {
+        "name": "fiscal_policy",
+        "score": 100.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "monetary_policy",
+        "score": 80.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "macro_growth",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      }
+    ],
+    "dominant_currencies": [
+      {
+        "name": "JPY",
+        "score": 100.0,
+        "direction": 0.0,
+        "impact": 0.0
+      }
+    ],
+    "alignment": {
+      "daily_sum_rmsd": 0.004020865281,
+      "gap": 0.000375373975,
+      "ranking_mode": "impact",
+      "top_rmsd_chain": "EUR -> SGD -> JPY -> EUR",
+      "top_rmsd_chain_rmsd": 0.00039058563,
+      "top_alignment_chain": "EUR -> SGD -> JPY -> EUR",
+      "top_alignment_score": 0.0,
+      "top_alignment_relevance_score": 0.039058563000000004,
+      "top_alignment_impact_score": 0.0,
+      "top_alignment_chain_rmsd": 0.00039058563,
+      "top_alignment_chain_rmsd_rank": 1,
+      "top_alignment_chain_relevance_rank": 1,
+      "top_alignment_chain_impact_rank": 1,
+      "top_alignment_currency_overlap": 100.0,
+      "top_alignment_currency_relevance_overlap": 100.0,
+      "top_alignment_weighted_currency_overlap": 0.0
+    },
+    "top_alignment_chains": [
+      {
+        "chain": "EUR -> SGD -> JPY -> EUR",
+        "chain_currencies": "EUR|SGD|JPY",
+        "chain_rmsd": 0.00039058563,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.039058563000000004,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 1,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> SGD -> JPY -> USD",
+        "chain_currencies": "USD|SGD|JPY",
+        "chain_rmsd": 0.000339577639,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0339577639,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "JPY -> CAD -> CHF -> JPY",
+        "chain_currencies": "JPY|CAD|CHF",
+        "chain_rmsd": 0.000321963024,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0321963024,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 3,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "EUR -> CHF -> JPY -> EUR",
+        "chain_currencies": "EUR|CHF|JPY",
+        "chain_rmsd": 0.000309161378,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.030916137800000004,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 4,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> CHF -> JPY -> USD",
+        "chain_currencies": "USD|CHF|JPY",
+        "chain_rmsd": 0.000306456289,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.030645628900000003,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 5,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      }
+    ],
+    "top_rmsd_chains": [
+      {
+        "chain": "EUR -> SGD -> JPY -> EUR",
+        "chain_currencies": "EUR|SGD|JPY",
+        "chain_rmsd": 0.00039058563,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.039058563000000004,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 1,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> SGD -> JPY -> USD",
+        "chain_currencies": "USD|SGD|JPY",
+        "chain_rmsd": 0.000339577639,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0339577639,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "JPY -> CAD -> CHF -> JPY",
+        "chain_currencies": "JPY|CAD|CHF",
+        "chain_rmsd": 0.000321963024,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0321963024,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 3,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "EUR -> CHF -> JPY -> EUR",
+        "chain_currencies": "EUR|CHF|JPY",
+        "chain_rmsd": 0.000309161378,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.030916137800000004,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 4,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "USD -> CHF -> JPY -> USD",
+        "chain_currencies": "USD|CHF|JPY",
+        "chain_rmsd": 0.000306456289,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.030645628900000003,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 5,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      }
+    ],
+    "interpretation": "The official event is represented by ANAS as a fiscal_policy, monetary_policy, macro_growth exposure with currency pressure around JPY. In the next_day window, FrictionGraph's largest standalone RMSD chain is EUR -> SGD -> JPY -> EUR, while the strongest event-overlap chain is EUR -> SGD -> JPY -> EUR. These are same chain, which helps separate broad market stress from event-specific currency-chain alignment.",
+    "caution": "This case links official-event exposure to nearby FrictionGraph chain behavior. It is an explanatory alignment record, not a causal claim or trading signal.",
+    "tableau_ready_files": [
+      "output/alignment_jpy_stress/event_alignment_summary.csv",
+      "output/alignment_jpy_stress/event_chain_alignment.csv",
+      "output/alignment_jpy_stress/waterfall_category_daily.csv",
+      "output/alignment_jpy_stress/waterfall_currency_daily.csv"
+    ]
+  },
+  {
+    "case_id": "mof_2025_12_05_international_reserves__7_day",
+    "event_id": "mof_2025_12_05_international_reserves",
+    "event_date": "2025-12-05",
+    "title": "International Reserves / Foreign Currency Liquidity as of the End of November 2025",
+    "source": "Japan Ministry of Finance",
+    "official_url": "https://www.mof.go.jp/english/policy/international_policy/reference/official_reserve_assets/e0711.html",
+    "window": "7_day",
+    "friction_date": "2025-12-10",
+    "dominant_categories": [
+      {
+        "name": "monetary_policy",
+        "score": 100.0,
+        "direction": 10.0,
+        "impact": 10.0
+      },
+      {
+        "name": "macro_growth",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "commodities_metals",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      }
+    ],
+    "dominant_currencies": [
+      {
+        "name": "JPY",
+        "score": 100.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "USD",
+        "score": 100.0,
+        "direction": 0.0,
+        "impact": 0.0
+      },
+      {
+        "name": "XAU",
+        "score": 20.0,
+        "direction": 0.0,
+        "impact": 0.0
+      }
+    ],
+    "alignment": {
+      "daily_sum_rmsd": 0.001181501814,
+      "gap": 0.000264690598,
+      "ranking_mode": "impact",
+      "top_rmsd_chain": "EUR -> SGD -> CHF -> EUR",
+      "top_rmsd_chain_rmsd": 6.3621858e-05,
+      "top_alignment_chain": "EUR -> SGD -> CHF -> EUR",
+      "top_alignment_score": 0.0,
+      "top_alignment_relevance_score": 0.0,
+      "top_alignment_impact_score": 0.0,
+      "top_alignment_chain_rmsd": 6.3621858e-05,
+      "top_alignment_chain_rmsd_rank": 1,
+      "top_alignment_chain_relevance_rank": 29,
+      "top_alignment_chain_impact_rank": 1,
+      "top_alignment_currency_overlap": 0.0,
+      "top_alignment_currency_relevance_overlap": 0.0,
+      "top_alignment_weighted_currency_overlap": 0.0
+    },
+    "top_alignment_chains": [
+      {
+        "chain": "EUR -> SGD -> CHF -> EUR",
+        "chain_currencies": "EUR|SGD|CHF",
+        "chain_rmsd": 6.3621858e-05,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 29,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 0.0,
+        "currency_relevance_overlap": 0.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "EUR -> CHF -> SGD -> EUR",
+        "chain_currencies": "EUR|CHF|SGD",
+        "chain_rmsd": 6.3277115e-05,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 29,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 0.0,
+        "currency_relevance_overlap": 0.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "EUR -> CAD -> CHF -> EUR",
+        "chain_currencies": "EUR|CAD|CHF",
+        "chain_rmsd": 6.1827235e-05,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 29,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 0.0,
+        "currency_relevance_overlap": 0.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "JPY -> SGD -> CHF -> JPY",
+        "chain_currencies": "JPY|SGD|CHF",
+        "chain_rmsd": 6.0816302e-05,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0060816302,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "JPY -> CAD -> CHF -> JPY",
+        "chain_currencies": "JPY|CAD|CHF",
+        "chain_rmsd": 5.802355e-05,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.005802355,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 4,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      }
+    ],
+    "top_rmsd_chains": [
+      {
+        "chain": "EUR -> SGD -> CHF -> EUR",
+        "chain_currencies": "EUR|SGD|CHF",
+        "chain_rmsd": 6.3621858e-05,
+        "chain_rank_by_rmsd": 1,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 29,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 0.0,
+        "currency_relevance_overlap": 0.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "EUR -> CHF -> SGD -> EUR",
+        "chain_currencies": "EUR|CHF|SGD",
+        "chain_rmsd": 6.3277115e-05,
+        "chain_rank_by_rmsd": 2,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 29,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 0.0,
+        "currency_relevance_overlap": 0.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "EUR -> CAD -> CHF -> EUR",
+        "chain_currencies": "EUR|CAD|CHF",
+        "chain_rmsd": 6.1827235e-05,
+        "chain_rank_by_rmsd": 3,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 29,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 0.0,
+        "currency_relevance_overlap": 0.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "JPY -> SGD -> CHF -> JPY",
+        "chain_currencies": "JPY|SGD|CHF",
+        "chain_rmsd": 6.0816302e-05,
+        "chain_rank_by_rmsd": 4,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.0060816302,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 2,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      },
+      {
+        "chain": "JPY -> CAD -> CHF -> JPY",
+        "chain_currencies": "JPY|CAD|CHF",
+        "chain_rmsd": 5.802355e-05,
+        "chain_rank_by_rmsd": 5,
+        "alignment_score": 0.0,
+        "relevance_alignment_score": 0.005802355,
+        "impact_alignment_score": 0.0,
+        "chain_rank_by_alignment": 1,
+        "chain_rank_by_relevance_alignment": 4,
+        "chain_rank_by_impact_alignment": 1,
+        "currency_overlap": 100.0,
+        "currency_relevance_overlap": 100.0,
+        "weighted_currency_overlap": 0.0
+      }
+    ],
+    "interpretation": "The official event is represented by ANAS as a monetary_policy, macro_growth, commodities_metals exposure with currency pressure around JPY, USD, XAU. In the 7_day window, FrictionGraph's largest standalone RMSD chain is EUR -> SGD -> CHF -> EUR, while the strongest event-overlap chain is EUR -> SGD -> CHF -> EUR. These are same chain, which helps separate broad market stress from event-specific currency-chain alignment.",
+    "caution": "This case links official-event exposure to nearby FrictionGraph chain behavior. It is an explanatory alignment record, not a causal claim or trading signal.",
+    "tableau_ready_files": [
+      "output/alignment_jpy_stress/event_alignment_summary.csv",
+      "output/alignment_jpy_stress/event_chain_alignment.csv",
+      "output/alignment_jpy_stress/waterfall_category_daily.csv",
+      "output/alignment_jpy_stress/waterfall_currency_daily.csv"
+    ]
+  }
+]
